@@ -39,6 +39,16 @@ h3 {
 	margin: 0 0 35px 0;
 }
 
+p {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+h2 {
+	font-weight: 800;
+	font-size: 50px;
+}
+
 
 h1 {
 	font-weight: 800;
@@ -100,19 +110,63 @@ a.cta.alt {
 	position: absolute;
 	bottom: 74px;
 }
-/*<div class="hero-banner">
-	<div class="wrapper">
-		<h4>Cristian proudly presents</h4>
-		<h1>The Silliest &<br>
-		Most Awesome Gang<br>
-		In The World!
-		</h1>
-		<h3>It's Circle Guy, Hat Guy, & Red Guy<br>
-			The're the best of friends.
-		</h3>
-		<a href="#read-more" class="cta alt">Read More</a>
-	</div>
-	<div class="character1"></div>
-	<div class="character2 "></div>
-	<div class="character3"></div>
+
+
+nav {
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 5px 8px rgba(0,0,0,0.2);
+	position: relative;
+	position: sticky;
+	top: 0;
+}
+
+nav .logo {
+	 display: block;
+	 width: 300px;
+	 height: 40px; 
+	 position: absolute;
+	 top: 50%; left: 0;
+	 margin-top: -20px;
+	 margin-left: 30px;
+	 background: url(img/logo.png) no-repeat 0 0;
+	 background-size: 100%;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	margin: 30px 10px;
+	padding: 0;
+	float: right;
+	list-style-type: none;
+
+}
+
+nav ul li a {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	color: #111; 
+}
+
+
+.more-info {
+	text-align: center;
+}
+
+
+/*<div class="more-info" id="read-more">
+	<h2>Join Our Fan Club</h2>
+	<p>Every Week we have <span class="highlight">a party.</span> If you want to join us, then join our fan club.
+	Members will also receive pictures of us in all kinds of shapes and sizes. Sounds cool?
+	</p>
+	<button class="cta">Sign Me Up!</button>
 </div>*/
+
+
+
