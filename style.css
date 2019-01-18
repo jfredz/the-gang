@@ -154,9 +154,23 @@ nav ul li a {
 	color: #111; 
 }
 
-
 .more-info {
 	text-align: center;
+}
+
+.highlight {
+	background-color: #FFADF9;
+	color: #FF3000;
+	padding: 5px 10px;
+	font-weight: 800;
+}
+
+.more-info p {
+	margin: 18px 0 35px;
+}
+
+.more-info h2 {
+	margin: 50px 0 0;
 }
 
 
