@@ -273,9 +273,130 @@ footer {
 	margin: 84px 0 45px 0;
 }
 
-.popup {
-	display: none;
+.popup{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 2;
 }
+
+.popup .blanket {
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.popup .content {
+	box-sizing: border-box;
+	padding: 15px 40px 30px 40px;
+	width: 960px;
+	height: 500px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -250px;
+	margin-left: -480px;
+}
+
+.popup h2 {
+	margin: 10px 0 20px;
+}
+
+.popup .cta {
+	margin-top: 40px;
+}
+
+.popup .close {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: #FF3300 url(img/close.png) no-repeat center center;
+	background-size: 60%;
+	border: none;
+	outline: none;
+	position: absolute;
+	top: -40px;
+	right: -40px;
+	cursor: pointer;
+}
+
+.popup .item {
+	float: left;
+	width: 415px;
+	margin-left: 40px;
+	text-align: left;
+}
+
+.popup .item label {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.popup .item input[type="text"] {
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+	border: 4px solid black;
+	height: 70px;
+	box-sizing: border-box;
+	padding: 15px 20px;
+	width: 100%;
+
+}
+
+.popup .row {
+	height: 110px; 
+}
+
+.popup .row:first-child {
+	margin-bottom: 15px;
+}
+
+.popup .row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.popup .item:first-child {
+	margin-left: 0;
+}
+
+/*<div class="popup">
+	<div class="blanket">
+		<div class="content">
+			<button class="close "></button>
+			<form>
+				<div class="item">
+					<label>Your First Name</label>
+					<input type="text" name="" placeholder="Awesome Face" value="Irisha">
+				</div>
+				<div class="item">
+					<label>Your Last Name</label>
+					<input type="text" name="" placeholder="Circle Face">
+				</div>
+				<div class="item">
+					<label>Your Favourite Color</label>
+					<input type="text" name="" placeholder="Purple">
+				</div>
+				<div class="item">
+					<label>Your Favourite Food</label>
+					<input type="text" name="" placeholder="Sushi">
+				</div>
+				<button class="cta">I Want In!</button>
+			</form>
+		</div>
+	</div>
+</div>*/
 
 
 
