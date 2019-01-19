@@ -27,7 +27,7 @@
 <nav>
 	<a href="#" class="logo"></a>
 	<ul>
-		<li><a href="#">Sign Up</a></li>
+		<li><a href="javascript:()" onclick="showPopup();">Sign Up</a></li>
 		<li><a href="#the-story">The Story</a></li>
 		<li><a href="#read-more">More Info</a></li>
 	</ul>
@@ -39,7 +39,7 @@
 		<p>Every Week we have <span class="highlight">a party.</span> If you want to join us, then join our fan club.
 		Members will also receive pictures of us in all kinds of shapes and sizes. Sounds cool?
 		</p>
-		<button class="cta">Sign Me Up!</button>
+		<button class="cta" onclick="showPopup();">Sign Me Up!</button>
 	</div>
 </div>
 
@@ -77,11 +77,11 @@
 	Made by Cristian just for fun
 </footer>
 
-<div class="popup">
+<div class="popup" id="popup">
 		<div class="blanket"></div>
 		<div class="content">
 		<h2>Fill In Your Details</h2>
-			<button class="close "></button>
+			<button class="close" onclick="removePopup();"></button>
 			<form>
 			<div class="row">
 				<div class="item">
@@ -108,4 +108,5 @@
 		</div>
 </div>
 </body>
+<script type="text/javascript" src="script.js"></script>
 </html>
